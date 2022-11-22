@@ -62,9 +62,12 @@
 		DB26D7D22929484D001D412F /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
-				DB26D7E929294BEB001D412F /* ViewModel */,
-				DB26D7E829294BE1001D412F /* Model */,
-				DB26D7E729294AE6001D412F /* ViewControllers */,
+				DBFCB1AE292CFC1700591379 /* Managers */,
+				DBFCB1AD292CFC0E00591379 /* Resources */,
+				DB26D7E829294BE1001D412F /* Models */,
+				DBFCB1AC292CFBCD00591379 /* Views */,
+				DB26D7E929294BEB001D412F /* ViewModels */,
+				DB26D7E729294AE6001D412F /* Controllers */,
 				DB26D7D32929484D001D412F /* AppDelegate.swift */,
 				DB26D7D52929484D001D412F /* SceneDelegate.swift */,
 				DB26D7D72929484D001D412F /* MainTabBarViewController.swift */,
@@ -75,7 +78,7 @@
 			path = "Netflix Clone";
 			sourceTree = "<group>";
 		};
-		DB26D7E729294AE6001D412F /* ViewControllers */ = {
+		DB26D7E729294AE6001D412F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				DB26D7EA29294C23001D412F /* HomeViewController.swift */,
@@ -83,21 +86,42 @@
 				DB26D7EE29294E9B001D412F /* SearchViewController.swift */,
 				DB26D7F029294EC6001D412F /* DownloadsViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		DB26D7E829294BE1001D412F /* Model */ = {
+		DB26D7E829294BE1001D412F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		DB26D7E929294BEB001D412F /* ViewModel */ = {
+		DB26D7E929294BEB001D412F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModel;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DBFCB1AC292CFBCD00591379 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBFCB1AD292CFC0E00591379 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBFCB1AE292CFC1700591379 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
