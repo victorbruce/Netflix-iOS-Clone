@@ -1,5 +1,5 @@
 //
-//  SearchViewController.swift
+//  DownloadViewController.swift
 //  Netflix Clone
 //
 //  Created by Victor Bruce on 19/06/2023.
