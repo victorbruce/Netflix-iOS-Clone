@@ -32,7 +32,6 @@ class APICaller {
             // convert data into json
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results.results)
                 completion(.success(results.results))
             } catch {
                 print(error)
@@ -54,7 +53,6 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results.results)
                 completion(.success(results.results))
             } catch {
                 print(error)
@@ -76,7 +74,6 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results.results)
                 completion(.success(results.results))
             } catch  {
                 print(error)
