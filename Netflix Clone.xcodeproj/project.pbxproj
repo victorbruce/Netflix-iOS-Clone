@@ -12,6 +12,8 @@
 		DB26D7D82929484D001D412F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26D7D72929484D001D412F /* MainTabBarViewController.swift */; };
 		DB26D7DD2929484F001D412F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB26D7DC2929484F001D412F /* Assets.xcassets */; };
 		DB26D7E02929484F001D412F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26D7DE2929484F001D412F /* LaunchScreen.storyboard */; };
+		DB693B6F2A51591F00D50D95 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB693B6E2A51591F00D50D95 /* TitleTableViewCell.swift */; };
+		DB693B722A515EC800D50D95 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB693B712A515EC800D50D95 /* TitleViewModel.swift */; };
 		DB7662C82A4081E600929ADA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7662C72A4081E600929ADA /* HomeViewController.swift */; };
 		DB7662CA2A40822300929ADA /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7662C92A40822300929ADA /* UpcomingViewController.swift */; };
 		DB7662CC2A40825300929ADA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7662CB2A40825300929ADA /* SearchViewController.swift */; };
@@ -33,6 +35,8 @@
 		DB26D7DC2929484F001D412F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB26D7DF2929484F001D412F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB26D7E12929484F001D412F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB693B6E2A51591F00D50D95 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		DB693B712A515EC800D50D95 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		DB7662C72A4081E600929ADA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB7662C92A40822300929ADA /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		DB7662CB2A40825300929ADA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 		DB26D7D22929484D001D412F /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				DB693B702A515EB200D50D95 /* ViewModels */,
 				DBE2064D2A43F0440072AFDD /* Managers */,
 				DB7662D02A40A1D100929ADA /* Models */,
 				DB7662CF2A40A1C900929ADA /* Views */,
@@ -88,6 +93,14 @@
 				DB26D7E12929484F001D412F /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		DB693B702A515EB200D50D95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB693B712A515EC800D50D95 /* TitleViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		DB7662C62A4081CB00929ADA /* Controllers */ = {
@@ -107,6 +120,7 @@
 				DB7662D12A40A24300929ADA /* CollectionViewTableViewCell.swift */,
 				DB7662F72A4305A500929ADA /* HeroHeaderUIView.swift */,
 				DB7950662A46D44B002FE1F8 /* TitleCollectionViewCell.swift */,
+				DB693B6E2A51591F00D50D95 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +220,7 @@
 			files = (
 				DB7662CC2A40825300929ADA /* SearchViewController.swift in Sources */,
 				DB26D7D82929484D001D412F /* MainTabBarViewController.swift in Sources */,
+				DB693B6F2A51591F00D50D95 /* TitleTableViewCell.swift in Sources */,
 				DB7662D22A40A24300929ADA /* CollectionViewTableViewCell.swift in Sources */,
 				DBE2064F2A43F0560072AFDD /* APICaller.swift in Sources */,
 				DB7662F82A4305A500929ADA /* HeroHeaderUIView.swift in Sources */,
@@ -214,6 +229,7 @@
 				DB26D7D62929484D001D412F /* SceneDelegate.swift in Sources */,
 				DB7662CA2A40822300929ADA /* UpcomingViewController.swift in Sources */,
 				DB7950672A46D44B002FE1F8 /* TitleCollectionViewCell.swift in Sources */,
+				DB693B722A515EC800D50D95 /* TitleViewModel.swift in Sources */,
 				DBCA07B92A442FC400A64925 /* Title.swift in Sources */,
 				DB7662C82A4081E600929ADA /* HomeViewController.swift in Sources */,
 			);
